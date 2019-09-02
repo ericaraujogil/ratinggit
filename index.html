@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        fa, .fa-heart-o {
+            display: inline !important;
+            vertical-align: middle;
+            transition: all .2s ease-in-out;
+        }
+
+        div>.fa:hover {
+            font-size: 56px;
+        }
+
+        #container {
+            position: absolute;
+            margin: auto;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 350px;
+            height: 350px;
+            border-radius: 3px;
+            line-height: 350px;
+            text-align: center;
+        }
+
+        .corazonrojo {
+            font-size: 48px;
+            color: red;
+        }
+
+        .corazonnegro {
+            font-size: 48px;
+            color: black;
+        }
+
+        .selected {
+            font-size: 48px;
+            color: black;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div id="container">
+        <i id="pun1" class="fa fa-heart-o corazonrojo corazon" onmouseover="Puntuacion(this)" onmouseout="qPuntuacion(this)" onclick="sPuntuacion(this)"></i>
+        <i id="pun2" class="fa fa-heart-o corazonrojo corazon" onmouseover="Puntuacion(this)" onmouseout="qPuntuacion(this)" onclick="sPuntuacion(this)"></i>
+        <i id="pun3" class="fa fa-heart-o corazonrojo corazon" onmouseover="Puntuacion(this)" onmouseout="qPuntuacion(this)" onclick="sPuntuacion(this)"></i>
+        <i id="pun4" class="fa fa-heart-o corazonrojo corazon" onmouseover="Puntuacion(this)" onmouseout="qPuntuacion(this)" onclick="sPuntuacion(this)"></i>
+        <i id="pun5" class="fa fa-heart-o corazonrojo corazon" onmouseover="Puntuacion(this)" onmouseout="qPuntuacion(this)" onclick="sPuntuacion(this)"></i>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
